@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.visimob"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.CAMERA"/>    
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.visimob.MainActivity"
+            android:label="Vistoria de Imóveis"
+    		android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.visimob.ImovelCria"
+            android:label="Novo Imóvel"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.ListaComodos"
+            android:label="Cômodos"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.ImovelLista"
+            android:label="Imóveis"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.EditarEApagar"
+            android:label="Editar ou Apagar Imóvel"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.CriaComodo"
+            android:label="Criar um novo Cômodo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.ListaCampos"
+            android:label="Editar valores de um Cômodo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.EditaCampo"
+            android:label="Editar valores de um Campo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.EditaEApagaCampo"
+            android:label="Editar ou Apagar valores de um Campo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.CriaCampo"
+            android:label="Editar valores de um Campo"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity
+            android:name="com.example.visimob.EditaEApagaComodo"
+            android:label="Editar valores de um Cômodo"
+            android:screenOrientation="portrait">
+        </activity>
+    </application>
+
+</manifest>
