@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">visimob</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="novoImovel">Novo Imóvel</string>
+    <string name="VerImoveis">Ver Imóveis</string>
+    <string name="agenda">Agenda</string>
+    <string name="text">Vistoria Casa João</string>
+    <string name="agendar">Agendar Vistoria</string>
+    <string name="logomarca">logomarca</string>
+    <string name="dadosdoimovel">Dados do Imóvel</string>
+    <string name="locador">Locador</string>
+    <string name="locatario">Locatário</string>
+    <string name="endereco">Endereço</string>
+    <string name="bairro">Bairro</string>
+    <string name="fachada">Fachada</string>
+    <string name="tipodeimovel">Tipo</string>
+    <string name="data">Data</string>
+    <string name="avancar">Avançar</string>
+    <string name="foto">foto</string>
+    <string name="foto2">foto2</string>
+    <string name="remover">Remover</string>
+    <string name="editar">Editar</string>
+    <string name="imovel">Imóvel</string>
+    <string name="apagar">Apagar</string>
+    <string name="adicionarcampo">Adicionar Cômodo</string>
+    <string name="comodo">Cômodo</string>
+    <string name="nomecomodo">Nome do Cômodo</string>
+    <string name="salvar">Salvar</string>
+    <string name="estado">Estado</string>
+    <string name="perfeito">Em perfeito estado</string>
+    <string name="conservado">Conservado</string>
+    <string name="funcionando">Funcionando</string>
+    <string name="defeito">Com defeito</string>
+    <string name="pequenosEstragos">Com pequenos estragos</string>
+    <string name="sujo">Sujo</string>
+    <string name="limpo">Limpo</string>
+    <string name="observacoes">Observações</string>
+    <string name="imagens">Imagens</string>
+    <string name="adcCampo">Adicionar Campo</string>
+    <string name="nomecampo">Nome do Campo</string>
+    <string name="alertacriaimovel">Atenção, estes valores só poderão ser editados uma vez através do dispositivo móvel. Para edições posteriores, apenas poderá ser utilizado o Visimob PC.</string>
+    <string name="batefoto">Capturar Imagem</string>
+
+</resources>
