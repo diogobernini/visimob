@@ -12,24 +12,76 @@
                 <Button Content="Ajuda" />
             </ToolBar>
         </ToolBarTray>
-        <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" >
-            <TabItem Header="Quarto" Height="22" VerticalAlignment="Top">
-                <Grid Background="#FFE5E5E5">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="25"/>
+                <RowDefinition Height="567*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="98"/>
+                <ColumnDefinition Width="995*"/>
+            </Grid.ColumnDefinitions>
+            <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="1">
+                <ListBoxItem Content="Tomadas"></ListBoxItem>
+                <ListBoxItem Content="Paredes"></ListBoxItem>
+                <ListBoxItem Content="Piso"></ListBoxItem>
+            </ListBox>
+            <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="TabControl_SelectionChanged" Grid.Row="0" Grid.Column="1">
+                <TabItem Header="Quarto" Height="22" VerticalAlignment="Top">
+                    <Grid Background="#FFE5E5E5" HorizontalAlignment="Left">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="0"/>
+                            <RowDefinition Height="0"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="107*"/>
+                            <ColumnDefinition Width="869*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </TabItem>
+                <TabItem Header="Sala">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+            <Grid Grid.Column="1" Grid.Row="1" Background="LightGray">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="125"/>
+                    <ColumnDefinition Width="871*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="150"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" Grid.Column="0" Content="Estado:" Grid.ColumnSpan="2" Margin="0,0,871,0.2"/>
+                <Label Grid.Column="0" Content="Observações:" Grid.Row="1"/>
+                <Label Grid.Row="2" Grid.Column="0" Content="Imagem 1:"/>
+                <Label Grid.Row="3" Grid.Column="0" Content="Imagem 2:" />
+                <Grid Grid.Row="0" Grid.Column="1">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="20*"/>
+                        <RowDefinition Height="20*"/>
+                    </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="111*">
-                        </ColumnDefinition>
-                        <ColumnDefinition Width="976*"/>
+                        <ColumnDefinition Width="200*"/>
+                        <ColumnDefinition Width="200*"/>
                     </Grid.ColumnDefinitions>
-                    <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
-                        <ListBoxItem Content="Tomadas"></ListBoxItem>
-                        <ListBoxItem Content="Paredes"></ListBoxItem>
-                        <ListBoxItem Content="Piso"></ListBoxItem>
-                    </ListBox>
+                    <CheckBox Name="Funcionando" Content="Funcionando" Grid.Row="0" Grid.Column="0" VerticalAlignment="Center"/>
+                    <CheckBox Name="Conservado" Content="Conservado" Grid.Row="1" Grid.Column="0" VerticalAlignment="Center"/>
+                    <CheckBox Name="PerfeitoEstado" Content="Em perfeito estado" Grid.Row="2" Grid.Column="0" VerticalAlignment="Center"/>
+                    <CheckBox Name="PequenosEstragos" Content="Com pequenos estragos" Grid.Row="3" Grid.Column="0" VerticalAlignment="Center"/>
+                    <CheckBox Name="Defeito" Content="Com defeito" Grid.Row="0" Grid.Column="1" VerticalAlignment="Center"/>
+                    <CheckBox Name="Sujo" Content="Sujo" Grid.Row="1" Grid.Column="1" VerticalAlignment="Center"/>
+                    <CheckBox Name="Limpo" Content="Limpo" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"/>
                 </Grid>
-            </TabItem>
-            <TabItem Header="Sala">
-                <Grid Background="#FFE5E5E5"/>
-            </TabItem>
-        </TabControl>
+                <TextBox Name="observacoes" Grid.Column="1" Grid.Row="1" Margin="3.2,2.8,2,2.4" />
+                <Image Name="img1" HorizontalAlignment="Left" Grid.Column="1" Height="150" Grid.Row="3" Width="150" Margin="0.2,0.4,0,0.8" Grid.RowSpan="2"/>
+                <Image Name="img2" HorizontalAlignment="Left" Grid.Column="1" Height="150" Grid.Row="3" Width="150" Margin="0.2,0.4,0,0.8" Grid.RowSpan="2"/>
+            </Grid>
+        </Grid>
+        <Grid Height="592.8" VerticalAlignment="Top" Width="100"/>
     </DockPanel>
 </Window>

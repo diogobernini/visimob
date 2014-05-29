@@ -5,7 +5,8 @@
     <DockPanel>
         <ToolBarTray DockPanel.Dock="Top">
             <ToolBar>
-                <Button Content="Carregar Imóveis" Click="abreVistoria" />
+                <Button Content="Importar Imóveis" Click="abreVistoria" />
+                <Button Content="Abrir Imóveis Locais" Click="abreVistoria" />
                 <Button Content="Editar Contratos" />
                 <Button Content="Configurações" />
                 <Button Content="Ajuda" />

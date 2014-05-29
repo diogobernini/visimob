@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -19,10 +20,21 @@ namespace visimob_desktop
     /// </summary>
     public partial class Imovel : Window
     {
+        SQLiteDatabase db;
+        string url2, index;
+        DataTable info;
         public Imovel(string url, string index)
         {
+            db = new SQLiteDatabase(url);
+            url2 = url;
+            info = db.GetDataTable("SELECT * FROM Imoveis");
             InitializeComponent();
             this.WindowState = WindowState.Maximized;
+        }
+
+        private void TabControl_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
         }
     }
 }
