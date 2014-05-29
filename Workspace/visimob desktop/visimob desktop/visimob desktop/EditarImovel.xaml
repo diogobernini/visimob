@@ -7,7 +7,7 @@
             <ToolBar>
                 <Button Content="Salvar" Click="Button_Click_1" />
                 <Button Content="Cancelar" Click="Button_Click"/>
-                <Button Content="Editar Cômodos"/>
+                <Button Content="Editar Cômodos" Click="Button_Click_2"/>
                 <Button Content="Gerar Vistoria" />
                 <Button Content="Ajuda" />
             </ToolBar>

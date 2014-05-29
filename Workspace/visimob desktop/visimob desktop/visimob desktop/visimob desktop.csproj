@@ -72,11 +72,18 @@
     <Compile Include="EditarImovel.xaml.cs">
       <DependentUpon>EditarImovel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Imovel.xaml.cs">
+      <DependentUpon>Imovel.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ImovelLista.xaml.cs">
       <DependentUpon>ImovelLista.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLiteDatabase.cs" />
     <Page Include="EditarImovel.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Imovel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

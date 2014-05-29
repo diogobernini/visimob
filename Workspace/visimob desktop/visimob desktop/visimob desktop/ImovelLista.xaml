@@ -12,7 +12,7 @@
                 <Button Content="Ajuda" />
             </ToolBar>
         </ToolBarTray>
-        <DataGrid FontSize="20" RowHeight="40" ColumnHeaderHeight="40" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" AlternatingRowBackground="#e5e5e5" Name="tabelaImoveis" AutoGenerateColumns="False">
+        <DataGrid MouseDoubleClick="tabelaImoveis_MouseDoubleClick" FontSize="20" RowHeight="40" ColumnHeaderHeight="40" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" AlternatingRowBackground="#e5e5e5" Name="tabelaImoveis" AutoGenerateColumns="False">
             <DataGrid.Columns>
                <!-- <DataGridTextColumn Binding="{Binding ImovelID}" Header="Imóvel ID"></DataGridTextColumn>-->
                 <DataGridTextColumn Binding="{Binding Locador}" Header="Locador"></DataGridTextColumn>
@@ -21,9 +21,7 @@
                 <DataGridTextColumn Binding="{Binding Bairro}" Header="Bairro"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding Tipo}" Header="Tipo"></DataGridTextColumn>
                 <DataGridTextColumn Binding="{Binding Data}" Header="Data"></DataGridTextColumn>
-            <!--    <DataGridHyperlinkColumn Binding="{Binding Imagem1}" Header="Imagem 1"></DataGridHyperlinkColumn>
-                <DataGridHyperlinkColumn Binding="{Binding Imagem2}" Header="Imagem 2"></DataGridHyperlinkColumn>
-          -->  </DataGrid.Columns>
+        </DataGrid.Columns>
         </DataGrid>
     </DockPanel>
 </Window>

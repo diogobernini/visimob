@@ -63,6 +63,13 @@ namespace visimob_desktop
             {
                 MessageBox.Show("erro " + exp.ToString());
             }
+            MessageBox.Show("Salvo!");
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            Imovel edt = new Imovel(url2,indx);
+            edt.Show();
         }
     }
 }

@@ -46,5 +46,9 @@ namespace visimob_desktop
                 imv.Show();
             }
         }
+        private void Window_Closing(object sender, EventArgs e)
+        {
+                Application.Current.Shutdown();
+        }
     }
 }

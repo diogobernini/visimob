@@ -60,5 +60,15 @@ namespace visimob_desktop
             RefreshTable();
         }
 
+        private void tabelaImoveis_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (tabelaImoveis.SelectedItem != null)
+            {
+                int indice = tabelaImoveis.SelectedIndex;
+                EditarImovel edt;
+                edt = new EditarImovel(indice, url2);
+                edt.Show();
+            }
+        }
     }
 }
