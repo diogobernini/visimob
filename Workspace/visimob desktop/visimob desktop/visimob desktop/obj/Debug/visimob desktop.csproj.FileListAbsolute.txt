@@ -1,0 +1,28 @@
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\visimob desktop.exe.config
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\visimob desktop.exe
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\visimob desktop.pdb
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop.csprojResolveAssemblyReference.cache
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\App.g.cs
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop_MarkupCompile.cache
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop.g.resources
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob_desktop.Properties.Resources.resources
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop.csproj.GenerateResource.Cache
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop.exe
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop.pdb
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\x64\SQLite.Interop.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\x86\SQLite.Interop.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\EntityFramework.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\System.Data.SQLite.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\EntityFramework.xml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\bin\Debug\System.Data.SQLite.xml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\visimob desktop_Content.g.cs
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\EditarImovel.baml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\ImovelLista.baml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\EditarImovel.g.cs
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\ImovelLista.g.cs
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\MainWindow.baml
+C:\Users\DiogoBernini\Documents\app\Workspace\visimob desktop\visimob desktop\visimob desktop\obj\Debug\MainWindow.g.cs

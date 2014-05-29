@@ -1,0 +1,29 @@
+﻿<Window x:Class="visimob_desktop.ImovelLista"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ImovelLista" Height="500" Width="1000">
+    <DockPanel>
+        <ToolBarTray DockPanel.Dock="Top">
+            <ToolBar>
+                <Button Content="Atualizar" Click="Button_Click"/>
+                <Button Content="Cancelar" Click="Cancel_Click"/>
+                <Button Content="Editar Imóvel" Click="Editar_Click" VerticalAlignment="Bottom" Margin="0,0,0,0.4"/>
+                <Button Content="Gerar Vistoria" />
+                <Button Content="Ajuda" />
+            </ToolBar>
+        </ToolBarTray>
+        <DataGrid FontSize="20" RowHeight="40" ColumnHeaderHeight="40" IsReadOnly="True" CanUserAddRows="False" CanUserDeleteRows="False" AlternatingRowBackground="#e5e5e5" Name="tabelaImoveis" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+               <!-- <DataGridTextColumn Binding="{Binding ImovelID}" Header="Imóvel ID"></DataGridTextColumn>-->
+                <DataGridTextColumn Binding="{Binding Locador}" Header="Locador"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Locatario}" Header="Locatário"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Endereco}" Header="Endereço"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Bairro}" Header="Bairro"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Tipo}" Header="Tipo"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Data}" Header="Data"></DataGridTextColumn>
+            <!--    <DataGridHyperlinkColumn Binding="{Binding Imagem1}" Header="Imagem 1"></DataGridHyperlinkColumn>
+                <DataGridHyperlinkColumn Binding="{Binding Imagem2}" Header="Imagem 2"></DataGridHyperlinkColumn>
+          -->  </DataGrid.Columns>
+        </DataGrid>
+    </DockPanel>
+</Window>
