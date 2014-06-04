@@ -68,7 +68,7 @@ namespace visimob_desktop
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            Imovel edt = new Imovel(url2,indx);
+            Imovel edt = new Imovel(url2,endereco.Text);
             edt.Show();
         }
     }

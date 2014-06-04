@@ -21,29 +21,12 @@
                 <ColumnDefinition Width="98"/>
                 <ColumnDefinition Width="995*"/>
             </Grid.ColumnDefinitions>
-            <ListBox HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="1">
-                <ListBoxItem Content="Tomadas"></ListBoxItem>
-                <ListBoxItem Content="Paredes"></ListBoxItem>
-                <ListBoxItem Content="Piso"></ListBoxItem>
+            <ListBox Name="itens" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Grid.Column="0" Grid.Row="1" SelectionChanged="itens_SelectionChanged">
             </ListBox>
-            <TabControl HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="TabControl_SelectionChanged" Grid.Row="0" Grid.Column="1">
-                <TabItem Header="Quarto" Height="22" VerticalAlignment="Top">
-                    <Grid Background="#FFE5E5E5" HorizontalAlignment="Left">
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="0"/>
-                            <RowDefinition Height="0"/>
-                        </Grid.RowDefinitions>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="107*"/>
-                            <ColumnDefinition Width="869*"/>
-                        </Grid.ColumnDefinitions>
-                    </Grid>
-                </TabItem>
-                <TabItem Header="Sala">
-                    <Grid Background="#FFE5E5E5"/>
-                </TabItem>
+            <TabControl Name="Tabulacao" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" SelectionChanged="TabControl_SelectionChanged" Grid.Row="0" Grid.Column="1">
+               
             </TabControl>
-            <Grid Grid.Column="1" Grid.Row="1" Background="LightGray">
+            <Grid Name="detalhes" Grid.Column="1" Grid.Row="1" Background="LightGray">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="125"/>
                     <ColumnDefinition Width="871*"/>
@@ -78,10 +61,27 @@
                     <CheckBox Name="Limpo" Content="Limpo" Grid.Row="2" Grid.Column="1" VerticalAlignment="Center"/>
                 </Grid>
                 <TextBox Name="observacoes" Grid.Column="1" Grid.Row="1" Margin="3.2,2.8,2,2.4" />
-                <Image Name="img1" HorizontalAlignment="Left" Grid.Column="1" Height="150" Grid.Row="3" Width="150" Margin="0.2,0.4,0,0.8" Grid.RowSpan="2"/>
-                <Image Name="img2" HorizontalAlignment="Left" Grid.Column="1" Height="150" Grid.Row="3" Width="150" Margin="0.2,0.4,0,0.8" Grid.RowSpan="2"/>
+                <Grid Grid.Column="1" Grid.Row="2">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="189"/>
+                        <ColumnDefinition Width="682*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Name="img1" Grid.Column="0" HorizontalAlignment="Left" Height="150" Width="150" Margin="0,1,0,0.2"/>
+                    <Button Content="Alterar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,12,0,0" Height="40"/>
+                    <Button Content="Exportar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,57,0,0" Height="40"/>
+                    <Button Content="Apagar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,101,0,0" Height="40"/>
+                </Grid>
+                <Grid Grid.Column="1" Grid.Row="3">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="189"/>
+                        <ColumnDefinition Width="682*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Name="img2" Grid.Column="0" HorizontalAlignment="Left" Height="150" Width="150" Margin="0,1,0,0.2"/>
+                    <Button Content="Alterar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,12,0,0" Height="40"/>
+                    <Button Content="Exportar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,57,0,0" Height="40"/>
+                    <Button Content="Apagar imagem" Grid.Column="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="150" Margin="18.2,101,0,0" Height="40"/>
+                </Grid>
             </Grid>
         </Grid>
-        <Grid Height="592.8" VerticalAlignment="Top" Width="100"/>
     </DockPanel>
 </Window>

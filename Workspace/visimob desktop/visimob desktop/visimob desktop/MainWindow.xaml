@@ -13,5 +13,6 @@
             </ToolBar>
         </ToolBarTray>
         <Rectangle Fill="DarkGray"/>
+        <Image HorizontalAlignment="Center" VerticalAlignment="Center" Width="500" Source="Images/logo.png"/>
     </DockPanel>
 </Window>

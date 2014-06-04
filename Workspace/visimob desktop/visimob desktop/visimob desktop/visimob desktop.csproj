@@ -69,9 +69,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Device.xaml.cs">
+      <DependentUpon>Device.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EditarImovel.xaml.cs">
       <DependentUpon>EditarImovel.xaml</DependentUpon>
     </Compile>
+    <Compile Include="FormataString.cs" />
     <Compile Include="Imovel.xaml.cs">
       <DependentUpon>Imovel.xaml</DependentUpon>
     </Compile>
@@ -79,6 +83,10 @@
       <DependentUpon>ImovelLista.xaml</DependentUpon>
     </Compile>
     <Compile Include="SQLiteDatabase.cs" />
+    <Page Include="Device.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditarImovel.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -133,6 +141,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\logo.png" />
     <Content Include="x64\SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
